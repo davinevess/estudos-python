@@ -1,4 +1,4 @@
-# Utilitário de conversão de temperatura para a DataCode Solutions
+# Utilitário de conversão de temperatura
 
 # Recebe a entrada do usuário como texto (string)
 entrada_usuario = input("Digite a temperatura em graus Celsius: ")
