@@ -1,4 +1,4 @@
-# 🚀 Estudos Python - DataCode Solutions
+# 🚀 Estudos Python
 
 Repositório dedicado aos meus primeiros passos na programação com Python, focado no desenvolvimento de lógica, manipulação de dados e automação de cálculos fundamentais.
 
@@ -18,4 +18,3 @@ Repositório dedicado aos meus primeiros passos na programação com Python, foc
 * **Boas Práticas:** Documentação de código através de comentários explicativos para facilitar a manutenção.
 
 ---
-*Projeto desenvolvido para a primeira atribuição na DataCode Solutions.*
