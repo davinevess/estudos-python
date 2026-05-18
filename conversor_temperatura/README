@@ -1,0 +1,15 @@
+# 🌡️ Conversor de Temperatura
+
+Script interativo desenvolvido em Python para realizar a conversão de unidades de temperatura de graus Celsius (°C) para Fahrenheit (°F).
+
+## 🎯 Objetivo
+O foco principal desta atividade foi praticar a manipulação de tipos de dados primitivos decimais e a formatação limpa de saídas de texto no terminal.
+
+## 🛠️ Conceitos Computacionais Aplicados
+* **Coleta de Dados (I/O):** Utilização do método `input()` para interagir com o usuário via console.
+* **Casting (Conversão de Tipos):** Tratamento da entrada do usuário (que chega originalmente como texto/string) convertendo-a explicitamente para `float` para permitir cálculos matemáticos com precisão decimal.
+* **Formatação de String:** Uso de máscaras de exibição para garantir que o resultado final exiba apenas as casas decimais necessárias, melhorando a experiência visual.
+
+## 🧮 Fórmula Utilizada
+A conversão foi estruturada com base na fórmula matemática padrão:
+`F = (C * 9/5) + 32`
