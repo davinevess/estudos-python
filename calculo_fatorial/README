@@ -1,0 +1,11 @@
+# 🧠 Cálculo Fatorial
+
+Script desenvolvido em Python para calcular o fatorial de um número inteiro informado pelo usuário, limitando o escopo operacional entre 1 e 10.
+
+## 🎯 Objetivo
+Explorar o uso de bibliotecas nativas da linguagem Python e compreender como restringir e validar entradas numéricas do usuário.
+
+## 🛠️ Conceitos Computacionais Aplicados
+* **Bibliotecas Nativas (Built-in Modules):** Importação e uso da biblioteca matemática padrão do Python (`import math`) para otimização de performance, utilizando o método `math.factorial()`.
+* **Casting Estrito:** Conversão explícita da entrada de dados textuais para o tipo inteiro (`int`).
+* **Documentação de Código:** Aplicação de comentários estratégicos para explicar a transformação do tipo de dado, facilitando a legibilidade e manutenção futura do software.
