@@ -5,9 +5,9 @@ Repositório dedicado aos meus primeiros passos na programação com Python, foc
 📂 Organização do Repositório
 
 Para acessar o código-fonte de cada atividade, basta navegar pelas pastas clicando nos links abaixo:
-* 🛠️ [Atividade 1: Conversor de Temperatura](./conversor-temperatura/) — Script focado em manipulação de tipos decimais.
-* 🧠 [Atividade 2: Cálculo Fatorial](./calculo-fatorial/) — Implementação utilizando bibliotecas nativas de matemática.
-* 📦 [Atividade 3: Sistema de Gestão de Estoque](./sistema-estoque/) — Aplicação interativa completa com programação defensiva.
+* 🛠️ [Atividade 1: Conversor de Temperatura](./conversor_temperatura/) — Script focado em manipulação de tipos decimais.
+* 🧠 [Atividade 2: Cálculo Fatorial](./calculo_fatorial/) — Implementação utilizando bibliotecas nativas de matemática.
+* 📦 [Atividade 3: Sistema de Gestão de Estoque](./sistema_gestao_estoque/) — Aplicação interativa completa com programação defensiva.
 * 🎮 [Atividade 4: Jogo da Forca Educativo](./jogo-da-forca/) — Aplicação focada em manipulação de strings, coleções e busca performática.
 
 ---
