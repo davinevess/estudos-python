@@ -15,12 +15,12 @@ O desenvolvimento deste software foi focado na aplicação de boas práticas de 
 
 ---
 
-## 🧠 Justificativa Técnica da Estrutura de Dados
+## 🧠 Justificativa Técnico da Estrutura de Dados
 
 Um dos critérios de avaliação deste projeto foi a escolha fundamentada das estruturas de dados. A opção pela utilização de um **Conjunto (`set`)** para gerenciar as letras tentadas em detrimento de uma lista comum foi baseada em dois pilares:
 
-1.  **Unicidade Nativa:** O `set` proíbe automaticamente a existência de elementos duplicados. Isso elimina a necessidade de condicionais `if` adicionais para validar se a letra já existia na coleção antes de inseri-la.
-2.  **Eficiência de Busca - Complexidade O(1):** A checagem de existência (`if letra in letras_tentadas`) é processada em tempo constante através de tabelas *hash*. Em uma lista convencional, essa operação exigiria uma varredura linear com complexidade $O(n)$, tornando o programa menos eficiente à medida que o volume de dados cresce.
+1. **Unicidade Nativa:** O `set` proíbe automaticamente a existência de elementos duplicados. Isso elimina a necessidade de condicionais `if` adicionais para validar se a letra já existia na coleção antes de inseri-la.
+2. **Eficiência de Busca - Complexidade $O(1)$:** A checagem de existência (`if letra in letras_tentadas`) é processada em tempo constante através de tabelas *hash*. Em uma lista convencional, essa operação exigiria uma varredura linear com complexidade $O(n)$, tornando o programa menos eficiente à medida que o volume de dados cresce.
 
 ---
 
