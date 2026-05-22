@@ -5,9 +5,9 @@ Repositório dedicado aos meus primeiros passos na programação com Python, foc
 📂 Organização do Repositório
 
 Para acessar o código-fonte de cada atividade, basta navegar pelas pastas clicando nos links abaixo:
-* 🛠️ [Atividade 1: Conversor de Temperatura](./Conversor-Temperatura/) — Script focado em manipulação de tipos decimais.
-* 🧠 [Atividade 2: Cálculo Fatorial](./Calculo-Fatorial/) — Implementação utilizando bibliotecas nativas de matemática.
-* 📦 [Atividade 3: Sistema de Gestão de Estoque](./Sistema-Estoque/) — Aplicação interativa completa com programação defensiva.
+* 🛠️ [Atividade 1: Conversor de Temperatura](./conversor-temperatura/) — Script focado em manipulação de tipos decimais.
+* 🧠 [Atividade 2: Cálculo Fatorial](./calculo-fatorial/) — Implementação utilizando bibliotecas nativas de matemática.
+* 📦 [Atividade 3: Sistema de Gestão de Estoque](./sistema-estoque/) — Aplicação interativa completa com programação defensiva.
 * 🎮 [Atividade 4: Jogo da Forca Educativo](./jogo-da-forca/) — Aplicação focada em manipulação de strings, coleções e busca performática.
 
 ---
@@ -34,7 +34,7 @@ Para acessar o código-fonte de cada atividade, basta navegar pelas pastas clica
 
 🧠 Competências Desenvolvidas
 
-* **Casting e Conversão:** Entendimento profundo sobre a transformação de strings in tipos numéricos de forma segura.
+* **Casting e Conversão:** Entendimento profundo sobre a transformação de strings em tipos numéricos de forma segura.
 * **Programação Defensiva:** Domínio na captura de exceções (`ValueError`) e validações de tamanho/tipo de dados de entrada para impedir a quebra de sistemas em produção causadas por ações inesperadas dos usuários.
 * **Estruturas de Dados e Performance:** Uso estratégico de dicionários para otimização de buscas e aplicação de Conjuntos (`set`) para garantir a unicidade nativa de elementos e buscas eficientes com complexidade em tempo constante $O(1)$.
 * **Boas Práticas:** Documentação limpa através de Docstrings no padrão de mercado, comentários explicativos detalhados, modularização rigorosa e foco na experiência do usuário (UX) em aplicações via terminal.
