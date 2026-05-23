@@ -9,6 +9,7 @@ Para acessar o código-fonte de cada atividade, basta navegar pelas pastas clica
 * 🧠 [Atividade 2: Cálculo Fatorial](./calculo_fatorial/) — Implementação utilizando bibliotecas nativas de matemática.
 * 📦 [Atividade 3: Sistema de Gestão de Estoque](./sistema_gestao_estoque/) — Aplicação interativa completa com programação defensiva.
 * 🎮 [Atividade 4: Jogo da Forca Educativo](./jogo-da-forca/) — Aplicação focada em manipulação de strings, coleções e busca performática.
+* 📊 [Atividade 5: Sistema de Gerenciamento de Notas](./sistema_gerenciamento_notas/) — Arquitetura de software com funções modulares e suíte completa de testes unitários automatizados.
 
 ---
 
@@ -30,11 +31,25 @@ Para acessar o código-fonte de cada atividade, basta navegar pelas pastas clica
 * **Objetivo:** Criar um jogo interativo no terminal focado no aprendizado e fixação de termos técnicos de programação.
 * **Conceitos Aplicados:** Sorteio aleatório (`random.choice`), manipulação de strings (`.join()`, `.strip()`, `.upper()`), modularização com funções de responsabilidade única e uso estratégico de coleções.
 
+### 5. Sistema de Gerenciamento de Notas
+* **Objetivo:** Desenvolver o núcleo lógico de um sistema acadêmico para cadastro de estudantes, cálculo de médias aritméticas, relatórios formatados e validação institucional de aprovação.
+* **Conceitos Aplicados:** Estrutura de dados em memória (Lista de Dicionários), funções puras de responsabilidade única (SRP), documentação rigorosa com Docstrings (PEP 8) e blindagem contra erros de divisão por zero.
+
+---
+
+🧪 Engenharia de Validação (Testes Automatizados)
+
+A Atividade 5 introduz rotinas de **Garantia de Qualidade (QA)** através do módulo nativo `unittest`, cobrindo cenários críticos de execução:
+* **Fluxo Padrão:** Checagem automatizada de limites para aprovação (médias $\ge 7.0$) e reprovação.
+* **Casos Extremos (*Edge Cases*):** Validação de estabilidade matemática ao processar listas de notas totalmente vazias.
+* **Limites de Fronteira:** Teste de comportamento do operador lógico ao configurar a nota de corte institucional para o valor limite zero (`0.0`).
+
 ---
 
 🧠 Competências Desenvolvidas
 
 * **Casting e Conversão:** Entendimento profundo sobre a transformação de strings em tipos numéricos de forma segura.
 * **Programação Defensiva:** Domínio na captura de exceções (`ValueError`) e validações de tamanho/tipo de dados de entrada para impedir a quebra de sistemas em produção causadas por ações inesperadas dos usuários.
-* **Estruturas de Dados e Performance:** Uso estratégico de dicionários para otimização de buscas e aplicação de Conjuntos (`set`) para garantir a unicidade nativa de elementos e buscas eficientes com complexidade em tempo constante $O(1)$.
+* **Estruturas de Dados e Performance:** Uso estratégico de dicionários para otimização de buscas e aplicação de Conjuntos (`set`) para garantir a unicidade nativa de elements e buscas eficientes com complexidade em tempo constante $O(1)$.
+* **Qualidade e Validação de Software:** Habilidade prática na escrita de testes unitários isolados do código principal, garantindo a imunidade do sistema contra falhas de regressão durante futuras manutenções.
 * **Boas Práticas:** Documentação limpa através de Docstrings no padrão de mercado, comentários explicativos detalhados, modularização rigorosa e foco na experiência do usuário (UX) em aplicações via terminal.
